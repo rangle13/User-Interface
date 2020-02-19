@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index')
 def index():
-    user = {'username': 'Miguel'}
+    user = {'username': 'Rod'}
     posts = [
         {
             'author': {'username': 'John'},
